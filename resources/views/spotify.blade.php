@@ -15,7 +15,32 @@
             color: white;
             font-family: 'Montserrat', sans-serif;
             }
-
+            body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            height: 50px;
+            background-color: teal;
+        }
+        header ul {
+            display: flex;
+            
+        }
+        header ul li {
+            margin: 15px 10px;
+            color: white;
+            display: inline-block;
+            font-size: 1em;
+            font-weight: 600;
+            padding: 0 5px;
+            justify-content: space-around;
+        }
+        header ul li a {
+            text-decoration: none;
+            color: white;
+        }
 
     /* MAIN */
 
@@ -615,11 +640,21 @@
     <title>Spotify</title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href=>Home</a></li>
+            <li><a href=spotify>Spotify</a></li>
+            <li><a href=#>Another One</a></li>
+            <li><a href=#>This One</a></li>
+            <li><a href=#>FAQ</a></li>
+        </ul>
+    </header>
 
-
+    
     <!-- BEGIN MAIN -->
     
     <main>
+
 
         <!-- BEGIN SIDEBAR -->
         <div id="sidebar">
@@ -924,7 +959,7 @@
         </div>
 
 
-    </footer>
+    </footer> 
 
     <!-- END FOOTER -->
     
