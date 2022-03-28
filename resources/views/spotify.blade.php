@@ -642,11 +642,11 @@
 <body>
     <header>
         <ul>
-            <li><a href=>Home</a></li>
+            <li><a href=home>Home</a></li>
             <li><a href=spotify>Spotify</a></li>
-            <li><a href=#>Another One</a></li>
-            <li><a href=#>This One</a></li>
-            <li><a href=#>FAQ</a></li>
+            <li><a href=another>Another One</a></li>
+            <li><a href=this>This One</a></li>
+            <li><a href=faq>FAQ</a></li>
         </ul>
     </header>
 

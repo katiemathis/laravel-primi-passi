@@ -21,3 +21,21 @@ Route::get('/', function () {
 Route::get('/spotify', function () {
     return view('spotify');
 });
+
+Route::get('/home', function () {
+    return view('home');
+    
+});
+
+Route::get('/another', function () {
+    return view('another');
+});
+
+Route::get('/this', function () {
+    return view('this');
+    
+});
+
+Route::get('/faq', function () {
+    return view('faq');
+});
