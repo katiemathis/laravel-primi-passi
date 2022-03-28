@@ -50,7 +50,7 @@
         </ul>
     </header>
         <main>
-            <h1>{{$data ?? ''}}</h1>
+            <h1>{{$string}}</h1>
         </main>
 </body>
 </html>
